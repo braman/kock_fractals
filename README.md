@@ -1,2 +1,3 @@
-# kock_fractals
-Kock Fractals: Snowflake and Island
+# Kock Fractals
+Kock Fractals includes snowflake and island, based on JavaScript Canvas
+
