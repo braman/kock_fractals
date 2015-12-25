@@ -1,0 +1,23 @@
+<!doctype html>
+<meta name="robots" content="noindex">
+<html>
+	<head>
+		<title>Kock - Fractals</title>
+        <meta charset='utf-8' />
+		
+	</head>
+	<body>
+		<p>
+		  <input type="text" value="1" placeHolder = "asd" size = "4" id = "depth" />
+		  <input type="text" value="200" size = "4" id = "width" />
+		  <select value="island" id="type">
+			<option value="snow" selected>Snowflake</option>
+			<option value="island">Island</option>
+		  </select>
+		  <input type="button" onclick="draw()" value="OK"/>
+		  <input type="button" onclick="cleanUp()" value="Clean"/>
+		</p>
+		<canvas height='600' width='800' id='board'>Обновите браузер</canvas>
+		<script src="kock.js"></script>
+	</body>
+</html>
